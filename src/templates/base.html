@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{% block title %}{% endblock %} - Hartigan Portfolio</title>
+    <link rel="stylesheet" href="static/style.css">
+    <script src="https://use.fontawesome.com/ef299237cb.js"></script>
+    <script src="static/javascript.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <nav class="navbar">
+        <div class="nav-menu-left">
+            <a href="{{ url_for('main.index') }}" class="nav-link-left">Home</a>
+            <a href="{{ url_for('main.about') }}" class="nav-link-left">About</a>
+        </div>
+        <div class="nav-menu-middle">
+          <a href="#" class="nav-logo">Matt Hartigan's Coding Portfolio</a>
+        </div>
+        <div class="nav-menu-right">
+          <a href="#" class="nav-link-right" target="blank"><i id="email" class="fa fa-envelope fa-lg"></i></a>
+          <!-- <a href="https://github.com/hartimat" class="nav-link-right">Text</a>
+          <a href="https://www.linkedin.com/in/matthew-hartigan-a0b2a7219/" class="nav-link-right">Text</a> -->
+          <!-- <a href="#" class="nav-link-right"><i class="fa fa-envelope fa-lg"></i></a> -->
+          <a href="https://github.com/hartimat" class="nav-link-right" target="blank"><i id="github" class="fa fa-github fa-lg"></i></a>
+          <a href="https://www.linkedin.com/in/matthew-hartigan-a0b2a7219/" class="nav-link-right" target="blank"><i id="linkedin" class="fa fa-linkedin fa-lg"></i></a>
+        </div>
+        <div class="hamburger">
+          <a href="{{ url_for('main.index') }}" class="hamburger-link">Home</a>
+          <a href="{{ url_for('main.about') }}" class="hamburger-link">About</a>
+          <a href="#" class="hamburger-link" target="blank"><i id="hamburger-email" class="fa fa-envelope fa-lg"></i></a>
+          <a href="https://github.com/hartimat" class="hamburger-link" target="blank"><i id="hamburger-github" class="fa fa-github fa-lg"></i></a>
+          <a href="https://www.linkedin.com/in/matthew-hartigan-a0b2a7219/" class="hamburger-link" target="blank"><i id="hamburger-linkedin" class="fa fa-linkedin fa-lg"></i></a>
+       </div>  
+      </nav>
+    </div>
+    testetsetsetsetset
+    <div class="content">{% block content %}{% endblock %}</div>
+    <div class="footer">Developed by: Matt Hartigan, Copyright 2021</div>
+  </body>
+</html>
