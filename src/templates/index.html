@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}Home{% endblock %}
+{% block title %}Homepage{% endblock %}
 
 {% block content %}
 <div class="content-row">
@@ -9,9 +9,9 @@
             <img src="static/crypto_exchange_web_app.jpg" alt="...">
             <h2>Crypto Exchange Web App</h2>
             <ul>
-                <li><a href="https://www.youtube.com/channel/UCf-KfxuY8PZBSD_8RW2nYsw"><i class="fa fa-info"></i> About</a></li>
-                <li><a href="https://twitter.com/atuljustano"><i class="fa fa-play"></i> Demo</a></li>
-                <li><a href="https://github.com/hartimat"><i class="fa fa-github"></i></a></li>
+                <li><a href="{{ url_for('main.description', project='1') }}"><i title="Click for project info" class="fa fa-info"></i></a></li>
+                <li><a target="blank" href="#"><i title="Click for demo gif" class="fa fa-play"></i></a></li>
+                <li><a target="blank" href="https://github.com/hartimat/blockchain_developer_bootcamp"><i title="Click for source code" class="fa fa-github"></i></a></li>
             </ul>
         </div>
     </div>
@@ -20,9 +20,8 @@
             <img src="static/data.jpg" alt="...">
             <h2>Data Science + Machine Learning Package</h2>
             <ul>
-                <li><a href="https://www.youtube.com/channel/UCf-KfxuY8PZBSD_8RW2nYsw"><i class="fa fa-info"></i> About</a></li>
-                <li><a href="https://twitter.com/atuljustano"><i class="fa fa-play"></i> Demo</a></li>
-                <li><a href="https://github.com/hartimat"><i class="fa fa-github"></i></a></li>
+                <li><a href="{{ url_for('main.description', project='2') }}"><i title="Click for project info" class="fa fa-info"></i></a></li>
+                <li><a target="blank" href="https://github.com/hartimat/data_science_ml_development_program"><i title="Click for source code" class="fa fa-github"></i></a></li>
             </ul>
         </div>
     </div>
@@ -31,9 +30,9 @@
             <img src="static/conference.jpg"  alt="...">
             <h2>Conference Registration App</h2>
             <ul>
-                <li><a href="https://www.youtube.com/channel/UCf-KfxuY8PZBSD_8RW2nYsw"><i class="fa fa-info"></i> About</a></li>
-                <li><a href="https://twitter.com/atuljustano"><i class="fa fa-play"></i> Demo</a></li>
-                <li><a href="https://github.com/hartimat"><i class="fa fa-github"></i></a></li>
+                <li><a href="{{ url_for('main.description', project='3') }}"><i title="Click for project info" class="fa fa-info"></i></a></li>
+                <li><a target="blank" href="#"><i title="Click for demo gif" class="fa fa-play"></i></a></li>
+                <li><a target="blank" href="https://github.com/hartimat/flask_workout_conference_app"><i title="Click for source code" class="fa fa-github"></i></a></li>
             </ul>
         </div>
     </div>
@@ -44,20 +43,20 @@
             <img src="static/weight.jpg"  alt="...">
             <h2>Workout Logging Tool</h2>
             <ul>
-                <li><a href="https://www.youtube.com/channel/UCf-KfxuY8PZBSD_8RW2nYsw"><i class="fa fa-info"></i> About</a></li>
-                <li><a href="https://twitter.com/atuljustano"><i class="fa fa-play"></i> Demo</a></li>
-                <li><a href="https://github.com/hartimat"><i class="fa fa-github"></i></a></li>
+                <li><a href="{{ url_for('main.description', project='4') }}"><i title="Click for project info" class="fa fa-info"></i></a></li>
+                <li><a target="blank" href="#"><i title="Click for demo gif" class="fa fa-play"></i></a></li>
+                <li><a target="blank" href="https://github.com/hartimat/java_workout_tracker"><i title="Click for source code" class="fa fa-github"></i></a></li>
             </ul>
         </div>
     </div>
     <div class="image-area">
         <div class="img-wrapper">
             <img src="static/marine.jpg" alt="...">
-            <h2>Marine Vessel Tracker</h2>
+            <h2>Marine Vessel Finder</h2>
             <ul>
-                <li><a href="https://www.youtube.com/channel/UCf-KfxuY8PZBSD_8RW2nYsw"><i class="fa fa-info"></i> About</a></li>
-                <li><a href="https://twitter.com/atuljustano"><i class="fa fa-play"></i> Demo</a></li>
-                <li><a href="https://github.com/hartimat"><i class="fa fa-github"></i></a></li>
+                <li><a href="{{ url_for('main.description', project='5') }}"><i title="Click for project info" class="fa fa-info"></i></a></li>
+                <li><a href=""><i title="Demo coming soon..." class="fa fa-play"></i></a></li>
+                <li><a target="blank" href="https://github.com/hartimat/marine_vessel_finder"><i title="Click for source code" class="fa fa-github"></i></a></li>
             </ul>
         </div>
     </div>
