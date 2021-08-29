@@ -343,7 +343,7 @@ a {
     align-items: center;
     width: 85%;
     background: #1ec279;
-    color: #D2D3D3;
+    color: #212121;
     margin-top: 20px;
     border-radius: 10px;
     font-size: 30px;
@@ -357,7 +357,7 @@ a {
     text-align: left;
     width: 85%;
     background: #1ec279;
-    color: #D2D3D3;
+    color: #212121;
     margin: 20px;
     border-radius: 10px;
 }
@@ -374,14 +374,14 @@ a {
 
 .description-section h3 {
     flex-basis: 15%;
-    color: #D2D3D3;
+    color: #212121;
     text-decoration: underline;
     font-size: 22.5px;
 }
 
 .description-section p {
     flex-basis: 85%;
-    color: #D2D3D3;
+    color: #212121;
     font-size: 20px;
 }
 
@@ -389,14 +389,14 @@ a {
     flex-basis: 85%;
     display: flex;
     flex-direction: column;
-    color: #D2D3D3;
+    color: #212121;
     list-style-type: none;
     font-size: 20px;
 }
 
 .description ul li {
     flex-grow: 1;
-    color: #D2D3D3;
+    color: #212121;
     font-size: 20px;
 }
 
