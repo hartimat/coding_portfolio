@@ -8,6 +8,8 @@ This project uses the Python Flask web framework to implement a basic website th
 
 The goal of this project was to take a deeper dive into fundamental python web programming, as well as classic HTML / CSS.  Although I typically use tools such as bootstrap to implement most projects, it is still critical to understand the underlying technologies these things work.  By digging into the details of HMTL, CSS, and Flask with this project, I had an opportunity to increase my proficiency and fundamental understanding in these areas.
 
+## [ DEMO ]
+![Alt Text](src/static/coding_portfolio_demo.gif)
 
 ## [ STACK ]
 - Python (Flask)
