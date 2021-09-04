@@ -2,5 +2,7 @@ venv/
 TODO.txt
 __pycache__/
 instance/
-*.gif
+blockchain_developer_bootcamp_demo.gif
+basic_flask_app_demo.gif
+workout_tracker_demo.gif
 tests/
